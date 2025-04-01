@@ -8,6 +8,7 @@ import 'package:folio/sections/contact/contact.dart';
 import 'package:folio/sections/home/home.dart';
 import 'package:folio/sections/portfolio/portfolio.dart';
 import 'package:folio/sections/services/services.dart';
+import 'package:folio/widget/footer.dart';
 
 class StaticUtils {
   static const String hi = 'assets/hi.gif';
@@ -63,7 +64,7 @@ class BodyUtils {
     const Services(),
     const Portfolio(),
     const Contact(),
-    // const Footer(),
+    const Footer(),
   ];
 
   static List<Widget> animatedViews() {
