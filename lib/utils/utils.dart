@@ -64,7 +64,7 @@ class BodyUtils {
     const Services(),
     const Portfolio(),
     const Contact(),
-    const Footer(),
+    // const Footer(),
   ];
 
   static List<Widget> animatedViews() {
